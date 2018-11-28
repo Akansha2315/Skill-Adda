@@ -1,0 +1,73 @@
+{% extends "blog/base.html" %}
+{% block content %}
+{% load staticfiles %}
+<script src={% static "js/test.js" %} type="text/javascript"></script>
+<h1> About this Community</h1>
+
+<p style="width:1200px;color:#00c1de;font-size:20px;font-family: 'Poor Story', sans-serif">
+This is not a personal blogging site , it's a company  blog which is open for all.
+One can read various helpful articles here ,one can post their problems and can solve and discuss here .
+Founded in 2018, Skill Adda is one of a growing and ,
+most trusted online community for developers to learn, share their knowledge, and build their careers. More than 100 students and aspiring programmers visit Skill Adda each month to help solve coding problems, develop new skills.</p>
+
+<p>Stats:</p>
+
+<p>Recommended for:</p>
+<p style="width:1000px;color:#00c1de;font-size:20px;font-family: 'Poor Story', sans-serif"> Blogging and websites</p>
+<p>Founded:</p>
+<p style="width:1000px;color:#00c1de;font-size:20px;font-family: 'Poor Story', sans-serif">10th April , 2018</p>
+<p>Founder:</p>
+<p style="width:1000px;color:#00c1de;font-size:20px;font-family: 'Poor Story', sans-serif"> Akansha Jain,Shailja Sharma,Shubham Yadav, Computer Application Student of NIT Raipur.</p>
+<p>Total users:</p>
+<p style="width:1000px;color:#00c1de;font-size:20px;font-family: 'Poor Story', sans-serif"> Nearly 120 people.</p>
+<p>Pros:</p>
+<p style="width:1000px;color:#00c1de;font-size:20px;font-family: 'Poor Story', sans-serif"> Elegance and ease</p>
+<p style="width:1000px;color:#00c1de;font-size:20px;font-family: 'Poor Story', sans-serif">Our verdict: The best place to blog if you’re serious about it. Good for all types of Technicle, fashion blogs, single page websites, business websites, mommy blogs, company sites, eCommerce sites and more. </p>
+<div class="container">
+			<div class="row">
+				<div class="contact-caption clearfix">
+					<div class="contact-heading text-center">
+						<h2 style="color:#00253d;margin-top:5px">Our Team</h2>
+					</div>
+					<div class="contact-info">
+						<div class="column">
+								<div class="card"style="margin-top:90px;margin-left:10px">
+								  <img src="{% static "images/tt.jpg" %}"  style="width:300px;height:260px">
+								  <div class="container">
+									<h2 style="color:#00c1de">Akansha Jain</h2>
+									  <h3 style="color:#00c1de">Developer</h3>
+									<ul><li><i class="fa fa-phone" ></i>9340626547</li></ul>
+									  <ul><li><i class="fa fa-envelope"></i>akanshajain2315@gmail.com</li></ul>
+								  </div>
+								</div>
+							  </div>
+						<div class="column">
+								<div class="card"style="margin-top:90px">
+								  <img src="{% static "images/shailja.jpg" %}" style="width:300px;height:260px">
+								  <div class="container">
+									<h2 style="color:#00c1de">Shailja Sharma</h2>
+									  <h3 style="color:#00c1de">Developer</h3>
+									<ul><li><i class="fa fa-phone" ></i>8085523400</li></ul>
+									  <ul><li><i class="fa fa-envelope"></i>shailjasharma1997@gmail.com</li></ul>
+								  </div>
+								</div>
+							  </div>
+						<div class="column">
+								<div class="card"style="margin-top:90px;margin-right:8px">
+								  <img src="{% static "images/shubh.jpg" %}" style="width:300px;height:260px">
+								  <div class="container">
+									<h2 style="color:#ff7733">Shubham Yadav</h2>
+									  <h3 style="color:#ff7733">Developer</h3>
+									<ul><li><i class="fa fa-phone"></i>9794730822</li></ul>
+									  <ul><li><i class="fa fa-envelope"></i>yadavshubham191@gmail.com</li></ul>
+								  </div>
+								</div>
+							  </div>
+
+
+
+				</div>
+			</div>
+		</div>
+
+{% endblock %}
